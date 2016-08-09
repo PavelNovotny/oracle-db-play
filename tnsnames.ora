@@ -1,0 +1,14 @@
+jrn =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST =cvspptdb2pkg.ux.to2cz.cz)(PORT =1523))
+    (CONNECT_DATA =
+      (SID = CIPJR)
+    )
+  )
+bscs1 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST =rptppkg.eurotel.cz)(PORT =1527))
+    (CONNECT_DATA =
+      (SID = BSCS1)
+    )
+  )

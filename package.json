@@ -1,0 +1,25 @@
+{
+  "name": "oracle-db-play",
+  "version": "1.0.0",
+  "description": "playing with elasticsearch in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelNovotny/oracle-db-play.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelNovotny/oracle-db-play/issues"
+  },
+  "homepage": "https://github.com/PavelNovotny/oracle-db-play#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "node-gyp": "^3.4.0",
+    "node-rest-client": "^2.0.1",
+    "oracledb": "^1.10.1"
+  }
+}

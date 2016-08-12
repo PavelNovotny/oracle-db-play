@@ -7,7 +7,7 @@ var Client = require('node-rest-client').Client;
 var client = new Client();
 var oracledb = require('oracledb');
 var productFetchCount = 10000; //počet řádků pro jednu iteraci čtení produktu
-var maxServiceRowsInBulk = 10; //max počet service v jednom bulku pro elastic, bulků je samozřejmě tolik, dokud se nevyčerpají data
+var maxServiceRowsInBulk = 1000; //max počet service v jednom bulku pro elastic, bulků je samozřejmě tolik, dokud se nevyčerpají data
 var maxCursors = 100; //max počet cursorů na db spojení
 
 

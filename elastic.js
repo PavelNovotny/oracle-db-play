@@ -63,7 +63,7 @@ function connect(callback) {
     oracledb.getConnection(
         {
             user          : "rp",
-            password      : "zavojnatka",
+            password      : "*****",
             connectString : "bscs1"
         },
         function(err, connection) {
